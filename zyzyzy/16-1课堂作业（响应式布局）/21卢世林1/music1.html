@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<style>
+    	div{
+		width: 80%;
+		height: 350;
+		background: pink;
+		margin:100px auto;
+		position: relative;
+	}
+	/*侧边栏和文章栏均采用绝对定位，并设置起始位置为左上00，此时发生重叠*/
+	aside,article{
+		position: absolute;
+		right: 0px;
+		top: 0;
+	}
+	/*设置侧边栏的固定宽度，且叠放层级为2*/
+	aside{
+		width: 400px;
+		height: 200px;
+		background: rgb(48, 38, 153);
+		z-index:2;
+	}
+	/*设置文章栏为百分比自适应布局，且叠放层级为1*/
+
+	article{
+		height: 500px;
+		width: 100%;
+		background: rgb(214, 75, 33);
+		z-index:1;
+		padding: 20px;
+	}
+	/*文章栏的盒子踢出200px左外边距，使内容部分不被覆盖*/
+	p{
+		margin-right:200px;
+	}
+
+
+
+</style>
+<body>
+    	<div>
+                <aside class="music"><audio src="影响.mp3" controls="controls">浏览器不支持audio标签</audio></aside>
+                <article>
+                    <p>        
+                            影响 
+                            电视剧《创业时代》爱情主题曲
+                            歌手：陈粒
+                            
+                            所属专辑：影响
+                            
+                            播放收藏分享下载(4750)作曲 : 董冬冬
+                            作词 : 陈曦
+                            编曲：闫天午
+                            
+                            借一下临别的肩膀
+                            就当作最后的嘉奖
+                            你给我的希望
+                            放在心上
+                            任你去随便遗忘
+                            
+                            去一个没你的地方
+                            试着忍住不去回望
+                            你令我的倔强
+                            长出翅膀
+                            再不害怕飞翔流浪
+                            
+                            我假装不在乎悲伤
+                            却眼含泪光
+                            偷偷对曾经的美好
+                            无法说谎
+                            我一心追逐光芒
+                            有你在身边闪亮
+                            就这样一点一滴被你影响
+                            
+                            去一个没你的地方
+                            试着忍住不去回望
+                            你令我的倔强
+                            长出翅膀
+                            再不害怕飞翔流浪
+                            
+                            我假装不在乎悲伤
+                            却眼含泪光
+                            偷偷对曾经的美好
+                            无法说谎
+                            我一心追逐光芒
+                            有你在身边闪亮
+                            就这样一点一滴被你影响
+                            
+                            我假装不在乎悲伤
+                            却眼含泪光
+                            偷偷对曾经的美好
+                            无法说谎
+                            我一心追逐光芒
+                            有你在我身边闪亮
+                            就这样一点一滴被你影响
+                            
+                            制作人：董冬冬
+                            弦乐：国际首席爱乐乐团
+                            吉他：闫天午
+                            鼓手：卢炜
+                            录音：罗皓
+                            混音/母带：时俊峰</p>
+                </article>
+            </div>
+    
+
+</body>
+</html>

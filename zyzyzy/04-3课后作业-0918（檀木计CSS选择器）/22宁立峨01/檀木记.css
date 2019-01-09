@@ -1,0 +1,55 @@
+.one
+{
+    width:980px;
+    height:114px;
+    background-color:#525252;
+    margin:0 auto;
+    text-align: center;
+}
+.two 
+{
+    width:980px;
+	margin:0 auto;
+}
+.two h2
+{
+font-family: "宋体";
+background-color:black;
+color:beige;
+}
+.three 
+{
+	width:980px;
+	margin:0 auto;
+	color:#7c251c;
+	font-size: 30px;
+    text-align: center;
+}
+.three h2{line-height: 30px;}
+.three h3{line-height: 30px;font-size: 20px;}
+.three p
+{
+font-size: 35px;
+color:beige;
+background-color:black;
+}
+.three p i
+{
+    font-size: 50px;
+    color: #7c251c;
+}
+.three p strong{color: aqua;}
+.three p u{color: #7c251c;}
+.three p b {color: aqua;}
+.four{
+	width:980px;
+	margin:0 auto;
+	height:100px;
+	line-height: 100px;
+	color:#fff;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+	background-color:#525252; 
+}
+

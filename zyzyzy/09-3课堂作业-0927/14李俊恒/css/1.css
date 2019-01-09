@@ -1,0 +1,35 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 12px/1.5"Microsoft yahei",arial,Simsun,sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+.mod{
+    width: 944px;
+    margin: 20px auto;
+}
+.mod.top{
+    height: 54px;
+    background-color: blue;
+}
+.mod.mod-content{
+    height: 313px;
+    border: 1px solid #e0e0e0;
+    border-top-width: 0px;
+}
+.mod.left{
+    height: 312px;
+    float: left;
+    width: 182px;
+    border-right: 1px dotted #a3a3a3;
+}
+.mod.right{
+    height: 313px;
+    float: left;
+    width: 760px;
+    background-color: #666;
+}

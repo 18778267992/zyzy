@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .header span{
+            position: relative;
+            bottom: -5px;
+            float: left;
+            height: 60px;
+            line-height: 60px;
+            color: salmon;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+        /* .header span i{
+            position: absolute;
+            left: 50%;
+            margin-left: -6px;
+            bottom: 3px;
+            display: none;
+            width: 0;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            border-bottom: 6px solid pink;
+            border-top: 0 none;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+        } */
+        .two_2{
+            position: absolute;
+            z-index: 1;
+            top: 15px;
+            right: 0;
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-width: 3px;
+            border-style: solid;
+            border-color: skyblue transparent transparent skyblue;
+        }
+     .header b{
+         position: absolute;
+         z-index: 9;
+         display: inline-block;
+         padding: 0 2px;
+         height: 15px;
+         line-height: 15px;
+         background-color:skyblue;
+         color: aliceblue;
+        top:3px;
+        left: 21px;
+        font-size: 5px;
+
+     }
+     .header .current{
+         color:lightblue;
+         cursor: default;
+     }
+     .header i{
+         position: absolute;
+         left: 50%;
+         margin-left: -6px;
+         bottom: 3px;
+         border-bottom: 6px solid rgb(6, 189, 245);
+         border-top: 0 none;
+         border-left: 6px solid transparent;
+         border-right: 6px solid transparent
+     }
+     .header{
+         height: 62px;
+         border-bottom: 2px rgb(6, 189, 245) solid;
+         text-align: left;
+     }
+     
+    
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="current">
+            热门
+            <i></i>
+        </span>
+        <span>特卖汇</span>
+        <span>境内游</span>
+        <span>周边游</span>
+        <span>邮轮</span>
+        <span>门票</span>
+    <span >
+        主题游
+       <b class="two">
+            <em>NEW</em>
+            <em class="two_2"></em>
+        </b>
+        </span>
+        <span>高端游</span>
+       
+        <li class="JX">
+            <a href="#">精选</a>
+        </li>
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style type="text/css">
+.box
+{
+position: relative;
+height: 40px;
+border-bottom: 2px solid blue;
+text-align: left;
+}
+.box span
+{
+position: relative;
+float: left;
+height: 40px;
+color: coral;
+margin-right: 30px;
+cursor: pointer;
+line-height: 30px;
+}
+.little
+{
+position: absolute;
+z-index: 9;
+display: inline-block;
+padding: 0 2px;
+height: 15px;
+line-height: 15px;
+background-color: coral;
+color: black;
+
+}
+.little .t
+{
+ position: absolute;
+ top: 15px;
+ right: 0;
+ display: inline-block;
+ width: 0;
+ height: 0;
+ border-width: 3px;
+ border-style: solid;
+ background-color:pink transparent transparent pink;
+}
+</style>
+<body>
+    <div class="box">
+        <span>热门</span>
+        <span>冷门</span>
+        <span>空调</span>
+        <span>飞机</span>
+        <span>嘻嘻</span>
+        <span>哈哈</span>
+        <span>白白
+            <i></i>
+            <b class="little">
+                <em>NEW</em>
+                <em class="t"></em>
+            </b>
+        </span>
+        <span>嘿嘿</span>
+    </div>
+    
+</body>
+</html>

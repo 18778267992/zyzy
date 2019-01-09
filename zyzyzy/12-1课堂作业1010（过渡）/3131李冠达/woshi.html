@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>幻化</title>
+    <style type="text/css">
+    div{
+        width: 100px;
+        height: 50px;
+        background-color: #ff0;
+        border:1px solid black;
+        transition: all 2s ease;
+    }
+    #div2:hover{
+        transform:translate(100px,30px);
+	-ms-transform:translate(100px,30px);
+	-webkit-transform:translate(100px,30px);
+	-moz-transform:translate(100px,30px);
+	-o-transform:translate(100px,30px);
+    }
+    </style>
+</head>
+<body>
+    <div>我是元素原来的位置啊</div>
+    <div id="div2">我是元素放大后的位置啊</div>
+</body>
+</html>

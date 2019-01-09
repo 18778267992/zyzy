@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .one
+        {
+         width: 50%;
+         height: 50px;
+         border: 1px solid skyblue;
+         margin: 15px;
+         background-color:  blue;
+        }
+        .one ul
+        {
+            list-style: none;
+        }
+        .one ul li
+        {
+            float: left;
+            width: 120px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+        }
+        .one ul li a
+        {
+            display: block;
+            widows: 120px;
+            height: 50px;
+            text-decoration: none;
+        }
+        .two
+        {
+            position: absolute;
+            top: 5px;
+            height: 21px;
+            width: 30px;
+            line-height: 15px;
+            font-weight: normal;
+            background-color: skyblue;
+        }
+        .three
+        {
+            position: absolute;
+            top: 21px;
+            border-width: 4px;
+            border-style: solid;
+            border-color: skyblue transparent transparent skyblue;
+        }
+       
+
+    </style>
+</head>
+<body>
+   <div class="one">
+       <ul class="title">
+           <li><a href="http://www.ctrip.com/">首页</a></li>
+           <li><a href="http://hotels.ctrip.com/">酒店</a></li>
+           <li>
+               <a href="http://vacations.ctrip.com/">主题游</a>
+               <b class="two">
+                   <em>
+                       hot
+                    </em>
+                   <i class="three"></i>
+               </b>
+            </li>
+            <li><a href="https://flights.ctrip.com/">机票</a></li>
+       </ul>
+   </div>
+    
+</body>
+</html>

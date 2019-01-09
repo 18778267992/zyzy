@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网站导航</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            /* 整个的内外边距为0 */
+        }
+        .one
+        {
+            width: 600px;
+			height: 50px;
+            /* 框的大小 */
+			border: 1px solid blue;
+            /* 蓝色的框线 */
+			margin: 100px auto;
+            /* 外边距的距离 */
+        }
+        .one ul
+        {
+         list-style: none; 
+         /* 去掉小圆点 */
+        }
+        .one ul li 
+        {
+            float: left;
+            /* 将文本向左边靠，横向发展 */
+			width: 120px;
+			height: 50px;
+            /* 小框的大小 */
+			text-align: center;
+            /* 将文本居中 */
+			line-height: 50px;
+            /* 将文本的高度也居中 */
+        }
+        .one ul li a 
+        {
+            display: block;
+            /* 将背景颜色充满整个小框 */
+			width: 120px;
+			height: 50px;
+            /* 设计整个框的呃。。。什么什么的 */
+			text-decoration: none;
+            /* 去掉文本下面的线 */
+			background-color: purple;
+            /* 小框的背景颜色 */
+			color:white;
+            /* 框内文本的颜色 */
+        }
+        .one ul li a:hover
+        {
+            background-color:seagreen;
+            /* 当光标移动到哪个小框的颜色变化 */
+        }
+    </style>
+</head>
+<body>
+    <div  class="one" >   
+        <ul>
+            <li> <a href="#">网站栏目</a> </li>
+            <li> <a href="#">网站栏目</a> </li>
+            <li> <a href="#">网站栏目</a> </li>
+            <li> <a href="#">网站栏目</a> </li>
+            <li> <a href="#">网站栏目</a> </li>
+        </ul>
+    </div>
+</body>
+</html>

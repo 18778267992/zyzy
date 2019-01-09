@@ -1,0 +1,13 @@
+.box1{
+    padding: 100px;
+    border:1px solid red;
+    background-color: brown;
+   
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 10px 20px;
+    border-style: solid dashed dotted;
+    border-color: beige red slateblue thistle;
+}

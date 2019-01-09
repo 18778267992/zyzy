@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>林杰表格&表单</title>
+</head>
+<body>
+    <h1>表格</h1>
+    <table border="1">
+        <tr>
+            <th>班级</th>
+            <th>人数</th>
+        </tr>
+        <tr>
+            <td>1班</td>
+            <td>23人</td>
+        </tr>
+        <tr>
+            <td>2班</td>
+            <td>44人</td>
+        </tr>
+    </table>
+    <hr>
+    <!--学生成绩表-->
+    <table>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>语文</th>
+                <th>数学</th>
+                <th>英语</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>村头王师傅</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>二流子狗蛋</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>村花李建刚</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>村长赵大宝</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <!--作业1-->
+    <table border="1">
+        <tr>
+            <td rowspan="2"><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业1\html+css.jpg" alt="图片1"></a></td>
+            <td>内容：HTML+CSS课程视频</td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业1\download.jpg" alt="下载1"></td>
+        </tr>
+        <tr>
+            <td>大小：300M</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td rowspan="2"><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业1\qsgd.jpg" alt="图片2"></a></td>
+            <td>内容：网页设计视频</td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业1\download.jpg" alt="下载1"></td>
+        </tr>
+        <tr>
+            <td>大小：200M</td>
+            <td></td>
+        </tr>
+    </table>
+    <hr>
+    <!--作业2-->
+    <table border="1">
+        <tr>
+            <caption>腾讯新闻图片</caption>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_1.jpg" alt=""><br><a href="#">四川凉山深处小学生走铁索桥 </a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_2.jpg" alt=""><br><a href="#">湖南奶爸为防"毒奶粉" </a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_3.jpg" alt=""><br><a href="#">男子因救的哥身中11刀</a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_4.jpg" alt=""><br><a href="#">女子混入印度奥运代表团 </a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_5.jpg" alt=""><br><a href="#">图片故事：最美军嫂 </a></td>
+        </tr>
+        <tr>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_6.jpg" alt=""><br><a href="#">海南"七仙女"环保行</a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_7.jpg" alt=""><br><a href="#">组图：罗马尼亚举行弹劾</a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_8.jpg" alt=""><br><a href="#">深圳一男子爬地铁欲自杀</a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_9.jpg" alt=""><br><a href="#">吉林松花湖形象大使出炉</a></td>
+            <td><img src="F:\MyWeb\02HTML02链接列表和表格\02作业\作业2\photo_10.jpg" alt=""><br><a href="#">组图：为矿工写"生死簿</a></td>
+        </tr>
+    </table>
+    <hr>
+    <!--表单1-->
+    <form action="https://www.baidu.com/s?" method="get">
+    <label for="lddz">百度</label>
+    <input type="text" name="wd" id="lddz">
+    <input type="submit" value="搜索">
+    </form>
+    <hr>
+    <!--表单2-->
+    <form action="" method="" name="linjieForm">
+        用户名：<input type="text" name="username" value="请输入用户名"><br>
+        密码：<input type="password" name="password"><br>
+        性别：<label><input type="radio" name="gender" value="M">男</label>
+        <label><input type="radio" name="gender" value="W">女</label><br>
+        兴趣：<input type="checkbox" name="interest" value="palygame">玩游戏
+             <input type="checkbox" name="interest" value="sing">唱歌
+             <input type="checkbox" name="interest" value="dance">跳舞<br>
+        上传头像：<input type="file" name="pic"><br>
+        城市：<br>
+        自我介绍：<br>
+        <textarea cols="30" rows="10"></textarea>
+        <input type="submit" value="提交"><br>
+        <input type="reset" value="重置"><br>
+        <input type="button" value="普通按钮"br>
+        <input type="image" src="F:\MyWeb\03HTML03表单\01代码\an-0336.gif">
+    </form>
+</body>
+
+</html>

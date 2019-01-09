@@ -1,0 +1,102 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button {
+    margin: 0;
+    padding: 0;}
+
+body{
+    font: 16px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+    color: #333;
+    background-color:#f6f6f6;
+    
+}
+/* .mod .top span a {
+    text-decoration: none;
+} */
+a{
+    text-decoration: none;
+    color: rgb(63, 58, 58);
+}
+ul{
+list-style: none;
+
+}
+
+.mod{
+    width: 944px;
+    margin: 20px auto;
+    
+}
+/* .lefr{
+    width: 289px;
+    height: 300px;
+    border: 1px solid black;
+} */
+
+.mod .top{
+    height: 54px;
+    background-color:#f6f6f6;
+    text-align:center;
+
+    
+}
+
+.mod .top span a{
+    margin-right: 50px;  
+}
+
+.mod .mod-content {
+    height: 312px;
+    border: 1px solid rgb(218, 191, 191);
+    border-top-width: 0px;
+}
+
+.mod .left{
+
+
+height: 312;
+float: left;
+padding: 12px 17px 13px 15px;
+border-right: 1px dotted #a3a3a3;
+
+
+}
+.mod .right{
+    height: 312px;
+    float: left;
+    padding: 12px 17px 13px 15px;
+}
+
+.mod .right .select:first-child{
+    width: 37px;
+    height: 16px;
+    background-color: aquamarine;
+    border-radius: 2px;
+    color: rgb(127, 157, 184);
+    font-size: 12px;
+    text-align: center;
+}
+
+.a{
+    border: 2px solid rgb(30, 30, 179);
+}
+i{
+    display: inline-block;
+}
+i{
+position: absolute;
+left: 50%;
+margin-left: -6px;
+bottom: 3px;
+display: none;
+width: 0;
+height: 0;
+overflow: hidden;
+line-height: 0;
+font-size: 0;
+vertical-align: middle;
+border-bottom: 6px solid #3983e5;
+border-top: 0 none;
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+}
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+    <style type="text/css">
+    div,h2{
+        margin:0;
+        padding:0;
+    }
+    .mod{
+        height:36px;
+        border-bottom:2px blue solid;
+        text-align:left;
+    }
+
+	.mod-hd{
+    position: relative;
+    z-index: 10;
+    height: 36px;
+    border-bottom: 2px solid #3983e5;
+    text-align: left;
+    }	
+   .mod .title{
+    font: 16px/26px "Microsoft YaHei", "SimHei", SimSun, Tahoma, Verdana, Arial, sans-serif
+   }
+   .mod .title span {
+       position: relative;
+       bottom:-3px;
+       float: left;
+       height: 36px;
+       line-height: 30px;
+       color: #3983e5;
+       margin-right: 30px;
+       cursor: pointer;
+   }
+  
+
+        .mod .title .current,
+        .title span:hover {
+            color: #3983e5;
+        }
+
+        .mod .title .current {
+            cursor: default;
+        }
+
+        .mod .title .current i {
+            display: inline-block;
+        }
+
+        .mod .title i {
+            position: absolute;
+            left: 50%;
+            margin-left: -6px;
+            bottom: 3px;
+            display: none;
+            border-bottom: 6px solid #3983e5;
+            border-top: 0 none;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+        }
+
+        .mod .label-en {
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            display: inline-block;
+            background-color: orange;
+            color: #fff;
+            font-weight: normal;
+            padding: 0 2px;
+            font-size: 8px;
+            line-height: 16px;
+
+        }
+
+    
+.mod .triangle{
+    position:absolute;
+    z-index: 1;
+    top:16px;
+    right:0;
+    display:inline-block;
+    border-width: 3px;
+    border-style:solid;
+    border-color: orange transparent transparent orange;
+}
+	</style>
+</head>
+<body>
+
+    <div class="mod-hd">
+    <h2 class="title">
+    <span calss idx="990" dcity="2">
+        热门
+        <i></i>
+    </span>
+    <span  idx="0" dcity="2">
+        特卖
+        <i></i>
+    </span>
+
+    <span idx="2" dcity ="2">
+        济南
+        <i></i>
+    </span>
+    <span idx="17"dcity="2"class="current">
+        "主题"
+        <i></i>
+        <b class="label-en">
+            <em>NEW</em>
+            <em class="triangle"></em>
+        </b>
+    </span>
+</h2>
+
+
+    </div>
+</body>
+</html>

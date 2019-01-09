@@ -1,0 +1,34 @@
+
+p
+{
+    color: aqua;
+    text-align: center;
+    font-style: initial；
+}
+
+h1
+{
+    font-size: 30px;
+    color: aqua;
+    text-align: center;
+    font-family: "宋体"；
+}
+
+.one
+{
+    color: rgb(252, 11, 11);
+    font-style: italic;
+
+}
+
+.too
+{
+    color: rgb(7, 243, 18)
+}
+
+#box
+{
+    color: black;
+    font-weight: bold;
+
+}

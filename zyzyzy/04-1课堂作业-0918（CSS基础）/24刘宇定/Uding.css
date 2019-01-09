@@ -1,0 +1,24 @@
+h1
+{
+    color: aquamarine;
+    font-size: 24px;
+    text-align: left;
+    font-family: "宋体";
+}
+p
+{
+    color: cornflowerblue;
+    text-align: left;
+    font-style: normal;
+    
+}
+.one
+{
+    color: brown;
+    text-align: left;
+}
+#one
+{
+    color: chartreuse;
+    text-align: left;
+}

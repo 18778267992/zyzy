@@ -1,0 +1,27 @@
+h1{
+    color:cyan;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+#one{
+    color: blueviolet;
+    font-family: Sans-serif；
+
+
+    
+}
+.two{
+    color:pink;
+    font-style: italic;
+    text-align: center;
+
+}
+p{
+    color: skyblue;
+    text-align: center;
+   font-style: italic;
+
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mod{
+    position: relative;
+    height: 36px;
+    border-bottom: 2px solid #3983e5;
+    text-align: left;
+    margin-top: 20px;
+}
+.mod .title{
+    font:16px/26px "Microsoft YaHei", "SimHei";
+}
+.mod .title span{
+    float: left;
+    position: relative;
+    bottom: -3px;
+    height: 36px;
+    line-height: 30xp;
+    color: #333;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.mod .title .current,.title span:hover {
+    color: #3983e5;
+}
+.mod .title .current{
+    cursor: default;
+}
+.mod .title .current i{
+    display: inline-block;
+}
+.mod .title i{
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+    bottom: 3px;
+    display: none;
+    border-bottom: 6px solid #3983e5;
+    border-top: 0 none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+
+}
+
+.label-en{
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    display: inline-block;
+    font-weight: normal;
+    padding: 0 2px;
+    font-size: 8px;
+    line-height: 16px;
+    background-color: #ff9913;
+    color: #fff;
+}
+.triangle{
+    position: absolute;
+    z-index: 1;
+    top: 17px;
+    right: 0px;
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #da620a transparent transparent #da620a;
+}
+.zhutiyou{
+    position: relative;
+}
+.a1{
+   position: relative;
+   float: left;
+   display: inline;
+   width: 187px;
+   height: 360px;
+   padding: 0 20px 15px;
+   overflow: hidden;
+   border: 1px #333 solid;
+}
+.a2{
+    position: relative;
+    float: left;
+    display: inline;
+    width: 500px;
+    height: 360px;
+    padding: 0 20px 15px;
+    overflow: hidden;
+    border: 1px #333 solid;
+ }
+ .line1{
+    float: left;
+    text-decoration: none;
+    background-color: #3983e5;
+    color: #fff;
+ }
+ .line2{
+    float: right;
+    text-decoration: none;
+    border: #3983e5;
+ }
+ .qingfudong{
+     overflow: hidden;
+ }
+ .tupiankuang{
+    margin: 5px;
+    border: 1px solid red;
+    float: left;
+}
+.tupiankuang .img{
+    width: 150px;
+    height: 100px;
+}
+.tupiankuang .span1{
+    text-align: left;
+    display: block;
+}
+.tupiankuang .span2{
+    text-align: right;
+    display: block;
+}

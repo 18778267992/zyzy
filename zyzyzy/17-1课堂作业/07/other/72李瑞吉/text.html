@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .abc{
+	width:100%;
+	height:700px;
+	background: #fff;
+}
+.abc header{
+	width:508px;
+	height: 95px;
+	background: #f7f7f7;
+	border-radius: 48px;
+	margin:220px auto 0;
+	box-sizing:border-box;
+	padding:7px 0 0 35px;
+}
+.abc p{
+	margin-top: 10px;
+	text-align: center;
+	color:coral;
+}
+.abc ul{
+	margin:70px auto 0;
+	width: 960px;
+}
+li{
+    list-style: none;
+}
+.abc ul li{
+	width:195px;
+	height:195px;
+	border:1px solid #ccc;
+	border-radius: 50%;
+	float: left;
+	margin-right:5%;
+	margin-bottom: 40px;
+	position: relative;
+}
+.abc ul li img{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.abc ul li:nth-child(4),.abc ul li:nth-child(8){
+	margin-right:0;
+}
+.abc ul li .aa{
+	opacity: 0;
+	transition:all 0.4s ease-in 0.2s;	
+}
+.abc ul li:hover .aa{
+	opacity: 1;
+	transform:translate(-50%,-50%) scale(0.75);	
+}
+.abc ul li .a{
+	transition:all 0.4s ease-in 0s;
+}
+.abc ul li:hover .a{
+	opacity: 0;
+	transform:translate(-50%,-50%) scale(0.5);
+}
+
+</style>
+</head>
+<body>
+    <div class="abc">
+        <header>
+        <img  src="cp.jpg" >    
+        </header>
+     <p>评测 我们更专业 用户更放心</p>
+    <ul>
+        <li><img class="a" src="cp1.jpg" alt="">
+            <img class="aa" src="th1.png" alt="">
+        </li>
+        <li><img class="a" src="cp2.jpg" alt="">
+            <img class="aa" src="th2.png" alt="">
+        </li>
+        <li><img class="a" src="cp3.jpg" alt="">
+            <img class="aa" src="th3.png" alt="">
+        </li>
+        <li><img class="a" src="cp4.jpg" alt="">
+            <img class="aa" src="th4.png" alt="">
+        </li>
+        <li><img class="a" src="cp5.jpg" alt="">
+            <img class="aa" src="th5.png" alt="">
+        </li>
+        <li><img class="a" src="cp6.jpg" alt="">
+            <img class="aa" src="th6.png" alt="">
+        </li>
+        <li><img class="a" src="cp7.jpg" alt="">
+            <img class="aa" src="th7.png" alt="">
+        </li>
+        <li><img class="a" src="cp8.jpg" alt="">
+            <img class="aa" src="th8.png" alt="">
+        </li>
+    </ul>
+    </div>
+</body>
+</html>

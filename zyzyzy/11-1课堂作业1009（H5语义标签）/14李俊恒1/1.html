@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    	<!-- HTML5中的header元素是一种具有引导和导航作用的结构元素，
+			该元素可以包含所有通常放在页面头部的内容。 -->
+    <header>
+        <h1>软件未来的无限性</h1>
+        <p>——改变未来，我们正在奋斗。</p>
+    </header>
+
+    <dl>
+        <dt>计算机</dt>   <!--定义术语名词-->
+        <dd>用于大型运算的计算机</dd>     <!--解释和描述名词-->
+        <dd>可以上网冲浪</dd>
+        <dd>工作效率非常高</dd>
+    </dl>
+
+    <ul type="circle">
+        <li>时</li>
+        <li>分</li>
+        <li>秒</li>
+
+    </ul>
+
+    <ol>
+        <li>苹果</li>
+        <li>香蕉</li>
+        <li>橘子</li>
+        <li>柠檬</li>
+     </ol>
+
+     		<!-- nav元素表示页面中链接到其他页面或者本页面其他部分的区块；包含导航连接的区块。
+		主要的导航、站内搜索、二级导航（略有争议）、页面内导航（比如很长的文章） -->
+     <nav>
+         <a href="#">1</a>
+         <a href="#">2</a>
+         <a href="#">3</a>
+         <a href="#">4</a>
+     </nav>
+
+	<!-- article元素代表文档、页面或者应用程序中与上下文不相关的独立部分，
+		该元素经常被用于定义一篇日志、一条新闻或用户评论等。
+		article元素通常使用多个section元素进行划分，
+        一个页面中article元素可以出现多次。 -->
+        <article>
+            <header>
+                <h1>文章标题1</h1>
+                <p>编辑时间：20181009</p>
+            </header>
+            <p>文章内容1</p>
+        </article>
+        <article>
+            <h2>文章标题2</h2>
+            <p>文章内容2</p>
+        </article>
+
+        <!-- aside元素用来定义当前页面或者文章的附属信息部分，
+	它可以包含与当前页面或主要内容相关的引用、侧边栏、广告、导航条等
+	其他类似的有别于主要内容的部分。
+	aside元素的用法主要分为两种：
+    1）被包含在article元素内作为主要内容的附属信息。
+    2）在article元素之外使用，作为页面或站点全局的附属信息部分。 --> 
+    <article>
+        <h1>标题</h1>
+        <section>内容</section>
+        <aside>其它相关的文章</aside>
+    </article>
+    <aside>右侧菜单</aside>
+
+    <!-- section元素用于帮助构建文档概要的语义部分。
+	一个section元素通常由内容和标题组成。
+	在使用section元素时，需要注意以下3点：
+	1.不要将section元素用作设置样式的页面容器，那是div的特性。
+	section元素并非一个普通的容器元素，当一个容器需要被直接定义样式或通过脚本定义行为时，推荐使用div。
+	2.如果article元素、aside元素或nav元素更符合使用条件，那么不要使用section元素。
+     3.没有标题的内容区块不要使用section元素定义。 -->
+        <article>
+            <header>
+                <h2>自我介绍</h2>
+            </header>
+            <p>一个大帅哥，还是一个好人</p>
+            <section>
+                <h2>评论</h2>
+                <article>
+                    <h3>评论者：qh</h3>
+                    <p>确实帅</p>
+                </article>
+                <article>
+                    <h3>评论者：hq</h3>
+                    <p>真的好</p>
+                </article>
+            </section>
+        </article>
+
+    <!-- 
+	<figure> 标签规定独立的流内容（图像、图表、照片、代码等等）。
+	<figure> 元素的内容应该与主内容相关，同时元素的位置相对于主内容是独立的。
+	如果被删除，则不应对文档流产生影响。
+	<figcaption> 标签为 <figure> 元素定义标题。
+	<figcaption> 元素应该被置于 <figure> 元素的第一个或最后一个子元素的位置。
+     -->
+        <p>回家看好了首付款金黄色的峰会上看到很少看到就会疯狂老师的很快圣诞节倒计时速度快回答是否看见收</p>
+        <figure>
+            <figcaption>龙族</figcaption>
+            <p>拍摄者：江南 摄影时间：2018年10月</p>
+            <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1539086248412&di=8f0ba4cc470f12ba8be7245d7b2a0660&imgtype=0&src=http%3A%2F%2Fimg5.dwstatic.com%2Faion%2F1312%2F251209215695%2F251209775579.jpg" alt="显示错误">
+        </figure>
+
+    <!-- 在使用hgroup元素时要注意以下几点：
+    如果只有一个标题元素不建议使用hgroup元素。
+    当出现一个或者一个以上的标题与元素时，推荐使用hgroup元素作为标题元素。
+    当一个标题包含副标题、section或者article元素时，建议将hgroup元素和标题相关元素存放到header元素容器中。 -->
+    <hgroup>
+        <h1>主标题</h1>
+        <h2>副标题</h2>
+    </hgroup>
+    <p>内容</p>
+
+    <details>
+        <summary>显示</summary>
+        <ul>
+            <li>sadm</li>
+            <li>asd</li>
+        </ul>
+    </details>
+
+    <h1>蓄力条</h1>
+	<p><progress min="0" max="100" value="50"></progress></p>
+</body>
+</html>

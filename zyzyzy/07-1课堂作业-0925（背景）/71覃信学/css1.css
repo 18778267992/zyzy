@@ -1,0 +1,30 @@
+span
+{
+    float: left;
+    background-image:url(zimubiao.jpg);
+    background-repeat: no-repeat;
+}
+.q{
+    width: 75px;
+    height: 82px;
+    background-position: -0 -202px;
+}
+
+.q:hover
+{
+    width: 90px;
+    height: 75px;
+    background-position: -0px -307px;
+}
+
+.x{
+    width: 90px;
+    height: 75px;
+    background-position: -0px -307px;
+}
+.x:hover
+{
+    width: 75px;
+    height: 82px;
+    background-position: -0 -202px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+.new{
+    width: 300px;
+    height: 50px;
+
+    
+    }
+.new ul li{ 
+    width: 80px;
+    float: left;
+list-style: none;
+}
+ .a{
+     background-color: darkgoldenrod;
+     position:relative;
+     right:10px;
+     top: -18px;
+ }
+ .b{    position: relative;
+    z-index: 1;
+    top: -7px;
+    right: 20px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #da620a transparent transparent #da620a}
+</style>
+<body>
+    <div class="new">
+     <ul>
+        <li><a href="#">酒店</a></li>
+        <li><a href="#">酒店</a></li>
+        <li><a href="#">酒店</a> <span class="a">
+            抢票
+        </span> 
+    <i class="b"> </i>
+    </li>
+    </ul>
+    </div>
+</body>
+</html>

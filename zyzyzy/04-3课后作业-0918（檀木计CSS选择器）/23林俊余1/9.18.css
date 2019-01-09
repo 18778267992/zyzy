@@ -1,0 +1,61 @@
+body{
+    color:#303131;
+    font-family: "华文隶书";
+    font-size: 20px;
+}
+#one{
+    width: 1000px;
+    height:120px;
+    margin:0 auto;
+    background-color:#525252;
+    text-align: center;
+
+}
+.one{
+    width: 1000px;
+    margin:0 auto;
+}
+.one h2{
+    color:FireBrick ;
+}
+.one h2{
+    font-size: 25px;
+    line-height: 25px;
+}
+.two{
+    width: 1000px;
+    margin:0 auto;
+    color:	#E9967A;
+    font-size:25px;
+    text-align: center;
+}
+.two h2{
+    line-height: 10px;
+}
+.two h3{
+    line-height: 10px;
+    font-size: 25px;
+}
+.two p{
+    font-size: 25px;
+    text-align: left;
+    text-indent: 10px;
+}
+.two p i{
+    font-size:40px;
+    color:IndianRed;
+}
+.two p strong,.two p u{
+    color: MediumPurple ;
+}
+.two p b{
+    background-color:LightSkyBlue ;
+}
+#two{
+    width: 1000px;
+    height:120px;
+    margin:0 auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+}

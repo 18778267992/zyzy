@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>头部</title>
+    <link rel="stylesheet" href="ndy.css">
+    <style>
+    *{
+        
+       padding: 0;
+       border: 0;
+        list-style: none;
+
+    }
+    a{
+        color:rgb(117, 218, 236);text-decoration: none;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        list-style: none;
+
+        }
+    .head{
+        width: 100%;
+        height: 40px;
+        background: #6b6868f5;
+        z-index: 999;
+        position: absolute;
+        
+
+
+
+     }
+     .head2 .right{
+        margin-top: 10px;
+        padding-right: 300px;
+        float: right;
+        
+        
+         
+
+     }
+     .head2 .left{
+        width:100px;
+	    height:20px;
+	    background:url() 0 0 no-repeat;
+	    margin-top: 10px;
+	    float: left;
+     }
+     nav{
+        width:100%;
+	   height:120px;
+	   background: rgba(0,0,0,0.2);
+	   z-index: 1000;
+	    position: absolute;
+	    top:40px;
+	    border-bottom: 1px solid #fff;
+     }
+     .img2{
+        width: 100%;
+       min-width: 1280px;
+       position: absolute;
+       z-index: 998;
+        top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+     }
+     .left2{
+        float: left;
+        padding-left: 100px;
+        
+        margin-right: 20%;
+     }
+     .left2 .one{
+        display: block;
+        height: 90px;
+        line-height: 90px;
+       font-size: 20px;
+        color: #fff;
+     }
+     .left2 .one span{
+        margin: 0 10px;
+        
+     
+     }
+     .left2 .one img{
+        vertical-align: middle;
+     }
+     .zhon{
+        margin-top: 32px;
+       
+     }
+     .zhon input{
+        width: 240px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    line-height: 32px;
+    background: rgba(0,0,0,0);
+    padding-left: 30px;
+    box-sizing: border-box;
+    background: url(../images/search.png) no-repeat 3px 3px;
+    outline: none;
+     }
+     .right2{
+         float: right;
+         padding-right: 100px;
+        
+    width: 280px;
+    height: 32px;
+    margin-right: 0;
+    font-family: "freshskin";
+    text-align: center;
+    line-height: 32px;
+    font-size: 16px;
+
+     }
+     .right2 a{
+
+         display: inline-block;
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    box-shadow: 0 0 0 1px #fff inset;
+    transition: box-shadow 0.3s ease 0s;
+    border-radius: 16px;
+    margin-left: 30px;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="head2">
+            <section class="left"></section>
+            <section class="right">
+            <a href="#">登陆</a>
+            <a href="#">注册</a>
+            </section>
+        </div>
+        
+    </div>
+    <nav>
+        <ul>
+            <li class="left2">
+                <a class="one" href="#">
+                  <img src="img/sanxian.png" alt="">
+                   <span>选项</span>
+                    <img src="img/sanjiao.png" alt="">
+                </a>
+            </li>
+            <li class="zhon">
+                 <form>
+                    <input type="text" value="请输入商品名称、品牌或编号">
+                </form>
+            </li>
+            <li class="right2">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+
+
+            </li>
+            
+        </ul>
+    </nav>
+    <img  class="img2"  src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1540181405245&di=c73c4d40979de40256eabde0cce79f76&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01739859aa24c8a801211d253085d3.jpg%401280w_1l_2o_100sh.jpg" alt="">
+    
+</body>
+</html>

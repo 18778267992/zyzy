@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+		padding:0 10%;
+		color:rgb(33, 45, 212);
+	    }
+	    span{
+	    	font-size: 100px;
+	    	font-family: Arial, Helvetica, sans-serif;
+	    	position: relative;
+			display: block;
+	    }
+	    span:before,span:after{
+	    	content:attr(data-q);
+	    	position: absolute;
+	    	left: 0;
+	    	transform-origin: right center;
+	    	transition:all 0.3s linear 0s;
+	    }
+	    span:before{
+	    	color:rgb(39, 201, 230);
+	    	z-index: 3;
+	    	transform:rotateY(15deg);
+
+	    }
+	    span:after{
+	    	color:rgba(0,0,0,0.3);
+	    	z-index:2;
+	    	transform: rotateY(0deg) scale(1.1, 1);
+	    }
+	    span:hover:before{
+	    	transform:rotateY(40deg) skew(0deg, 3deg);
+	    }
+	    span:hover:after{
+	    	transform:rotateY(40deg) skew(0deg,0deg);
+	    }
+    </style>
+</head>
+<body>
+        <span data-q="滑">滑</span>
+        <span data-q="稽">稽</span>
+        <span data-q="树">树</span>
+		<span data-q="下">下</span>
+		<span data-q="滑">滑</span>
+        <span data-q="稽">稽</span>
+        <span data-q="果">果</span>
+</body>
+</html>

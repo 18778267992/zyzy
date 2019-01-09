@@ -1,0 +1,63 @@
+.header{
+    
+    width: 980px;
+    height: 114px;
+    text-align:center;
+    margin: 0 auto;
+}
+.banner{
+  width: 980px;
+  font-style: italic;
+  color: coral;
+  text-align:center;
+  margin: 0 auto;
+}
+.banner2{
+    width: 980px;
+    margin: 0 auto;
+    color: coral;
+    font-size: 30px;
+    text-align: center;
+}
+.banner3{
+     width: 980px;
+     color: crimson;
+     font-size: 30px;
+     font-style: italic;
+     text-align:center;
+}
+strong
+{
+    color: orangered;
+
+}
+u
+{
+     color: orangered;
+     font-size: 15px;
+     font-weight: bold;
+
+}
+b{
+    background-color: violet;
+    color: black;
+    font-weight: bold;
+}
+em{
+    font-family:  "微软雅黑";
+    
+}
+.content{
+    width:980px;
+	margin:0 auto;
+	color:#7c251c;
+	text-align: center;
+}
+.footer{
+     width:980px;
+    margin:0 auto;
+    color: #7c251c;
+    background-color: pink;
+    text-align: center;
+    line-height: 60px;
+}

@@ -1,0 +1,37 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.en{
+    width: 610px;
+	height: 50px;
+	border: 1px solid red;
+    margin: 100px auto; 
+}
+.en  p{
+    /* width: 100px; */
+    /* height: 1px; */
+    color: burlywood;
+    border: 1px solid yellow;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+.en p a{
+    display: block;
+    width: 199px;
+    height: 50px;
+    border: 1px solid red;
+}
+.en p a:link , .en p a:visited{
+    text-decoration: none;
+			background-color: purple;
+			color:white;
+}
+.en p a:hover{
+    background-color: orange;
+}
+
+

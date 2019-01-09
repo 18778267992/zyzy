@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 12px/1.5"Microsoft yahei",arial,simsun,;
+    color:#333;
+    background-color:white;
+    
+}
+ul{
+    list-style: none;
+}
+.mod{
+    width: 1197px;
+    margin: 20px auto;
+    overflow: hidden;
+     height: 500px;
+    background-color: #F0F0F0; 
+}
+.mod.top{
+    height: 54px;
+    background-color:goldenrod;
+}
+
+.mod .mod-content{
+    height: 313px;
+    border: 1px  solid 	#E0E0E0;
+    border-top-width: 0px;
+
+}
+.mod .left{
+    float: left;
+    width: 184px;
+    height: 313px;
+   /* background-color: #555 */
+   border-right:  1px dotted #555; 
+}
+ .mod .right{
+     float: left;
+     height: 313px;
+     /* width: 760px;
+      background-color: #666  */
+ }

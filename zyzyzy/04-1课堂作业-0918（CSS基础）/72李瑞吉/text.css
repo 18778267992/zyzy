@@ -1,0 +1,11 @@
+h1{ color:blue;
+    font: size 200xp;
+    text-align:center;
+    font-family:"宋体";
+    font-style: italic
+}
+p{ 
+    text-align:center;
+    color:#444444 ;
+    font-style:italic;
+}

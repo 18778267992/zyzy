@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            padding:100px;
+            color:red;
+        }
+        span{
+            font-size: 100px;
+           
+            position: relative;
+        }
+        span:before,span:after{
+            content:attr(data-q);
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform-origin: left center;
+            transition:all 0.5s linear 0s;
+        }
+        span:before{
+            color:skyblue;
+            z-index: 2;
+            transform:rotateY(10deg);
+        }
+        span:after{
+            color:pink;
+            z-index:2;
+            transform: rotateY(0deg) scale(1.1, 1);
+        }
+        span:hover:before{
+            transform:rotateY(50deg) ;
+        }
+        span:hover:after{
+            transform:rotateY(50deg) ;
+        }
+        </style>
+
+   <head> </head>
+    <body>
+        <span data-q="哈">哈</span>
+        <span data-q="哈">哈</span>
+        <span data-q="哈">哈</span>
+        <span data-q="哈">哈</span>
+        <span data-q="哈">哈</span>
+     
+    </body>
+    </html>

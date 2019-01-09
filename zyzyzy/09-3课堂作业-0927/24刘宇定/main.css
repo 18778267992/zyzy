@@ -1,0 +1,39 @@
+
+.mod
+{
+    width: 944px;
+    margin: 20px auto;
+    height: 367px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.mod .top
+{
+   height: 54px;
+   background-color: #444;
+}
+
+.mod .mod-content
+{
+    height: 312px;
+    border: 1px solid  #E0E0E0;
+    border-top-width: 0px;
+}
+
+.mod .left
+{
+    float: left;
+    width: 182px;
+    height: 312px;
+    /* background-color: #555; */
+    border-right: 1px dotted #A3A3A3;
+}
+
+.mod .right
+{
+    float: left;
+    width: 759px;
+    height: 313px;
+    /* background-color: #666; */
+}

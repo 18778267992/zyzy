@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+     html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button 
+      {
+          margin: 0;
+          padding: 0;
+      }
+      body
+      {
+          font: 12px/1.5 "Microsoft yahei";
+          color: #333;
+          background-color: #fff;
+      }
+      .mod
+      {
+          width: 944px;
+          margin: 20px auto;
+          overflow: hidden;
+          /* background-color: #eee; */
+      }
+      ul
+      {
+         list-style: none;
+      }
+      /* .mod::after
+      {
+          content: "";
+          display: table;
+          clear: both;
+      } */
+      a
+      {
+          color: #3983e5;
+          text-decoration: none;
+      }
+      .mod .top
+      {
+          height: 54px;
+          background-color: #444;
+      }
+      .mod .mod-content
+      {
+          height: 312px;
+          border: 1px solid #e0e0e0;
+          border-top-width: 0px;
+          position: relative;
+          overflow: hidden;
+      }
+      .mod .left
+      {
+          width: 182px;
+          height: 312px;
+          float: left;
+          border-right: 1px dotted #a3a3a3;
+      }
+      .mod .right
+      {
+          height: 312px;
+          float: left;
+          /* width: 759px; */
+          margin-left: 8px;
+          padding: 12px 17px 13px 15px;
+          /* background-color: #666; */
+          width: 700px;
+      }
+      .mod .right .select li:first-child
+      {
+          width: 37px;
+          height: 16px;
+          background-color: #3983e5;
+          border-radius: 2px;
+          color: #fff;
+          text-align: center;
+          line-height: 16px;
+          font-weight: bold;
+      }
+      .mod .select li.active a
+      {
+          font-size: 10px;
+          color: #fff;
+      }
+      .mod .right .more
+      {
+          position: absolute;
+          top: 12px;
+          right: 17px;
+          padding: 2px 10px;
+      }
+      .mod .right .more:hover
+      {
+          border: 1px solid #3983e5;
+          border-radius: 5px;
+      }
+      .mod .product
+      {
+          margin-top: 10px;
+      }
+      .mod .product li
+      {
+          float: left;
+          width: 166px;
+          height: 127px;
+          margin: 0px 8px 8px 0px;
+          background-color: aqua;
+      }
+    </style>
+</head>
+<body>
+    <div class="mod">
+        <div class="top">
+        </div>
+        <div class="mod-content">
+            <div class="left"></div>
+            <div class="right">
+                <ul class="select">
+                   <li class="active"><a href="#">aa</a></li>
+                   <li><a href="#" class="more">bb</a></li>
+                </ul>
+                <ul class="product">
+                   <li>1</li>
+                   <li>2</li>
+                   <li>3</li>
+                   <li>4</li>
+                   <li>5</li>
+                   <li>6</li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

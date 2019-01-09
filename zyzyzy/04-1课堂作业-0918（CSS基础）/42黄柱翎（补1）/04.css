@@ -1,0 +1,17 @@
+h1
+{
+color: brown;
+text-align: center;
+font-size: 24px;
+font-family: "宋体";
+font-style: italic;
+background-color: darkgrey;
+width: 10;
+height: 10;
+font-weight: bold;
+}
+#one
+{
+text-align: center;
+color: blue;
+}

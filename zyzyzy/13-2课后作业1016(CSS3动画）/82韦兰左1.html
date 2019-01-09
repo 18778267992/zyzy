@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>翻转的文字</title>
+	<style>
+	body{
+		padding:200px;
+		color:rgb(153, 71, 51);
+	}
+	span{
+		font-size: 100px;
+		font-family: "微软雅黑";
+		position: relative;
+	}
+	span:before,span:after{
+		content:attr(data-q);
+		position: absolute;
+		left: 0;
+		top: 0;
+		transform-origin: left center;
+		transition:all 0.3s linear 0s;
+	}
+	span:before{
+		color:rgb(163, 42, 137);
+		z-index: 3;
+		transform:rotateY(15deg);
+	}
+	span:after{
+		color:rgba(0,0,0,0.3);
+		z-index:2;
+		transform: rotateY(0deg) scale(1.1, 1);
+	}
+	span:hover:before{
+		transform:rotateY(40deg) skew(0deg, 3deg);
+	}
+	span:hover:after{
+		transform:rotateY(40deg) skew(0deg,20deg);
+	}
+	</style>
+</head>
+<body>
+	<span data-q="R">R</span>
+	<span data-q="N">N</span>
+	<span data-q="G">G</span>
+	<span data-q="6">6</span>
+	<span data-q="的">的</span>
+	<span data-q="一">一</span>
+	<span data-q="麻">麻</span>
+	<span data-q="批">批</span>
+</body>
+</html>

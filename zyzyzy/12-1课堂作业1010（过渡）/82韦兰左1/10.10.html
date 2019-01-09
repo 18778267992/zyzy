@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://at.alicdn.com/t/font_866250_zfd81iv393g.js"></script>
+    <style type="text/css">
+        .icon {
+           width: 20em;
+        height: 20em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+        div
+{
+	width:100px;
+	height:100px;
+	background:rgb(30, 31, 116);
+	transition:width 2s;
+	-webkit-transition:width 2s; 
+}
+
+div:hover
+{
+	width:10cm;
+}
+div{
+	width:100px;
+	height:50px;
+	background-color:#FF0;
+	border:1px solid black;
+}
+#div2{
+	/* margin:100px; */
+	transform:scale(2,3);
+	-ms-transform:scale(2,3);       
+	-webkit-transform:scale(2,3);   
+	-moz-transform:scale(2,3);      
+	-o-transform:scale(2,3);       
+}
+    </style>
+    
+</head>
+<body>
+    <figure>
+            <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-hongxin"></use>
+                </svg>
+
+    </figure>
+    <p><b>注意：</b>我会变蓝</p>
+
+    <div></div>
+    
+    <p>点我会缩变</p>
+    
+    <div>我是原来的元素</div>
+  <!-- <div id="div2">我是放大后的元素</div> -->
+</body>
+</html>

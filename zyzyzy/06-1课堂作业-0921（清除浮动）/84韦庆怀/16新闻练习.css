@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.news{
+    
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000000;
+    margin: 100px;
+}
+.news ul{
+    list-style: hidden;
+}
+.news ul li{
+    overflow: hidden;
+    _zoom:1;
+    border-bottom: 1px dashed gray;
+}
+.news ul li span.title{
+    float: left;
+}
+.news ul li span.date{
+    float: right;
+}

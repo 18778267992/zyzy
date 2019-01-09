@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>scale()方法</title>
+<style type="text/css"> 
+div{
+	width:100px;
+	height:60px;
+	background-color:skyblue;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+	border:1px solid black;
+}
+div:hover {
+    width: 200px;
+	height: 200px;
+	background-color: thistle;
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+
+
+
+#div2{
+	margin:150px;
+	transform:scale(1,2);
+	-ms-transform:scale(1,2);        /* IE9浏览器兼容代码 */
+	-webkit-transform:scale(1,2);    /*Safari and Chrome浏览器兼容代码*/
+	-moz-transform:scale(1,2);       /*Firefox浏览器兼容代码*/
+	-o-transform:scale(1,2);        /*Opera浏览器兼容代码*/
+} 
+
+</style>
+</head>
+<body>
+<div>我是原来的元素</div>
+ <div id="div2">我是放大后的元素</div> 
+</body>
+</html>

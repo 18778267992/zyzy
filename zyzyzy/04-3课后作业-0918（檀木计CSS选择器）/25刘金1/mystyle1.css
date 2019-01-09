@@ -1,0 +1,40 @@
+body{
+    font-size: 18px;
+    color: blue;
+    font-family: "宋体"
+}
+.picture{
+    width: 900px;
+    height: 200px;
+    margin:0 auto;
+    text-align: center;
+}
+.picture h3{
+    text-align: left;
+}
+.banner{
+    width: 900px;
+    margin: 0 auto;
+}
+.content{
+    text-align: center;
+    width: 900px;
+    margin:0 auto;
+}
+.content h2 ,u,b，{
+    color: red;
+    
+}
+.content p{
+    text-align:left;
+    text-indent: 2em;
+}
+.content i{
+font-family: "行书";
+font-size: 200%;
+color: red;
+
+}
+.content em{
+    background-color:fuchsia;
+}

@@ -1,0 +1,72 @@
+/* 重置浏览器的默认样式 */
+/* margin简写属性在一个声明中设置所有外边距属性。 */
+/* padding 简写属性在一个声明中设置所有填充属性。该属性可以有1到4个值。 */
+*{margin: 0;padding: 0;}
+
+body{
+    font-family: "隶书";
+    font-size: 16px;
+}
+.header{
+    width: 980px;
+    height: 114px;
+    background-color: #525252;
+    margin: 0 auto;
+    /* margin:0 auto，意思就是上下边距为0，左右边距为auto，就是自动适应。 */
+    text-align: center;
+}
+.banner{
+    width: 980px;
+    margin: 0 auto;
+}
+.banner h2{
+    font-size: 18px;
+    line-height: 40px;/*行高*/
+}
+.content{
+    width:980px;
+    margin:0 auto;
+ 	color:#7c251c;
+ 	font-size: 30px;
+ 	text-align: center;
+}
+.content h2{
+    line-height: 30px;
+}
+.content h3{
+	line-height: 30px;
+	font-size: 20px;
+}
+.content p{
+	font-size: 20px;
+	text-align: left;
+    text-indent: 2em;
+    /* text-indent 属性规定文本块中首行文本的缩进。2em 缩进2字符 */
+	color:#303131;
+}
+.content p i{
+	font-size: 30px;
+	color:#7c251c;
+}
+.content p strong,.content p u{
+    color:#7c251c;
+}
+.content p u{
+    font-size: 24px;
+}
+.content p b{
+    background-color: #f5ee30;
+}
+.footer{
+    width:980px;
+    margin:0 auto;
+    height:100px;
+    line-height: 100px;
+    color:#fff;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    text-align: center;
+    background-color:#525252;
+}
+   
+   

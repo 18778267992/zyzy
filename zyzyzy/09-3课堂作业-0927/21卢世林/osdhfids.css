@@ -1,0 +1,58 @@
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button {
+    margin: 0;
+    padding: 0;}
+
+body{
+    font: 12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+    color: #333;
+    background-color:rgb(48, 114, 172);
+}
+
+ul{
+list-style: none;
+
+}
+
+.mod{
+    width: 944px;
+    margin: 20px auto;
+}
+
+.mod .top{
+    height: 54px;
+    background-color: blue
+}
+
+.mod .mod-content {
+    height: 312px;
+    border: 1px solid rgb(218, 191, 191);
+    border-top-width: 0px;
+}
+
+.mod .lefr{
+height: 312;
+float: left;
+padding: 12px 17px 13px 15px;
+}
+.mod .right{
+    height: 312px;
+    float: left;
+    padding: 12px 17px 13px 15px;
+}
+
+.mod .right .select:first-child{
+    width: 37px;
+    height: 16px;
+    background-color: aquamarine;
+    border-radius: 2px;
+    color: rgb(127, 157, 184);
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+

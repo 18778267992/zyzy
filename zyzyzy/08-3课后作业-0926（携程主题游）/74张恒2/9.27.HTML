@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, button {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+          font: 12px/1.5 "Microsoft yahei", arial, Simsun, sans-serif;
+          color: #333;
+          background-color: #fff;
+        }
+
+
+        .mod {
+            height: 36px;
+            border-bottom: 2px blue solid;
+            text-align: left;
+        }
+        .mod .title {
+            font: 16px/26px "Microsoft YaHei", "SimHei", SimSun, Tahoma, Verdana, Arial, sans-serif;
+        }
+        .mod .title span {
+            position: relative;
+            bottom: -3px;
+            float: left;
+            height: 36px;
+            line-height: 30px;
+            color: #333;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+        .mod .title .current,
+        .title span:hover {
+            color: #3983e5;
+        }
+        .mod .title .current {
+            cursor: default;
+        }
+        .mod .title .current i {
+            display: inline-block;
+        }
+        .mod .title i {
+            position: absolute;
+            left: 50%;
+            margin-left: -6px;
+            bottom: 3px;
+            display: none;
+            border-bottom: 6px solid #3983e5;
+            border-top: 0 none;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+        }
+        .mod .label-en {
+            position: absolute;
+            top: -12px;
+            left: 20px;
+            display: inline-block;
+            background-color: orange;
+            color: #fff;
+            font-weight: normal;
+            padding: 0 2px;
+            font-size: 8px;
+            line-height: 16px;
+        }
+        .mod .triangle {
+            position: absolute;
+            z-index: 1;
+            top: 17px;
+            right: 0;
+            display: inline-block;
+            border-width: 3px;
+            border-style: solid;
+            border-color:orange transparent transparent orange;
+        }
+        .mod:before, .mod:after{ 
+            display: table;
+            content: "";
+            line-height: 0px;
+        }
+        .mod .entrance-theme {
+            padding-top: 10px;            
+        }
+        .mod .entrance {
+            position: relative;
+            display: inline;
+            padding: 0 20px 15px;
+            overflow: hidden;            
+        }
+        .mod .product {
+            position: relative;
+            *zoom: 1;
+            height: 375px;
+            margin-left: 229px;
+            padding: 15px 19px 0;
+            border-left: 1px dotted #a3a3a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="mod">
+        <h2 class="title">
+            <span class="current">
+                热门
+                <i></i>
+            </span>
+            <span>
+                门票
+            </span>
+            <span>
+                主题游
+                <i></i>
+                <b class="label-en">
+                    <em>new</em>
+                    <em class="triangle"></em>
+                </b>
+            </span>
+            <span>
+                高端游
+            </span>
+        </h2>
+    </div>
+
+    <div class="mod">
+        <div class="current">
+            <div>
+                <img src="01.jpg" width="1000px" height="1000px">
+            </div>
+            <div class="product-hd">
+                <ul class="inner-tabs-nav">
+                </ul>
+                <a href="###" class="linked-more"><i class="i_index_next"></i></a>
+            </div>
+            <div class="product-bd">
+            <div class="inner-tab-panel active">
+        </div>
+    </div>
+</body>
+</html>

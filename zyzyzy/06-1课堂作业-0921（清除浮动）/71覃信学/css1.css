@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.con
+{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin: -56px 0 0 -56px;
+    padding: 20px 10px;
+    width: 92px;
+    height: 72px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: all .3s;
+
+}
+
+.con1
+{
+    height: auto;
+    text-align: center;
+    font: 700 18px/1.2 "Microsoft yahei";
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+   

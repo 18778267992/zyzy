@@ -1,0 +1,222 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    height: 58px;
+    background-color: #191d3a;
+}
+
+div
+{
+    display: block;
+}
+
+.innerCenter
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.header .logo
+{
+    float: left;
+    padding-left: 14px;
+    margin-right: 39px;
+    width: 174px;
+}
+
+
+
+.header .nav
+{
+    float: left;
+    width: 607px;
+}
+
+li
+{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.header .nav ul
+{
+    list-style: none;
+}
+
+.header .nav ul li.first
+{
+    background-color: #252947;
+    color: #e2e4ed;
+}
+
+.header .nav ul li
+{
+    float: left;
+    width: 100px;
+    border-left: 1px solid #252947;
+}
+
+.header .nav ul li a
+{
+    display: block;
+    width: 100px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    text-decoration: none;
+    color: #818496;
+    font-weight: bold;
+}
+
+
+.header .joinus
+{
+    float: left;
+    margin-left: 48px;
+    padding-top: 12px;
+}
+
+.header .joinus a
+{
+    display: block;
+    width: 98px;
+    height: 32px;
+    border: 1px solid #3aca7a;
+    border-radius: 4px;
+    background-color: #38b774;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.c1
+{
+    clear: both;
+}
+
+.banner
+{
+    height: 465px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.content
+{
+    background-image: url(images/indexmainbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 700px;
+}
+
+.content .product
+{
+    padding-top: 50px;
+    padding-bottom: 39px;
+    border-bottom: 1px solid #dbe1e7;
+    height: 191px;
+}
+
+.content .product ul
+{
+    list-style: none;
+}
+
+.content .product li
+{
+    float: left;
+    width: 218px;
+    height: 191px;
+    margin-right: 43px;
+    
+}
+
+li
+{
+    display:list-item;
+    text-align: -webkit-match-parent;
+}
+
+.content .product li.last
+{
+    width: 217px;
+    margin-right: 0px;
+}
+
+.content .product li a
+{
+    display: block;
+    height: 191px;
+    text-decoration: none;
+}
+
+.content .product li img
+{
+    width: 218px;
+    height: 128px;
+}
+
+.content .product li a h5
+{
+    line-height: 30px;
+    color: #444866;
+    text-align: center;
+}
+
+.content .product li a p
+{
+    line-height: 32px;
+    color: #38B774;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(images/tgreen.png);
+    background-repeat: no-repeat;
+    background-position: 150px 14px;
+}
+
+.foot{
+    height: 120px;
+    background-color: #191D3A;
+}
+.foot p{
+    float: left;        	
+    line-height: 60px;        	
+    color: #6C6E7E;
+    font-size: 12px;
+}
+
+.foot p.copyright{
+    width: 960px;
+    text-align:center;
+}
+
+.foot p.webmap{
+    text-align:left;
+}
+
+.foot a{
+    color: #6C6E7E;
+    text-decoration:none;
+}
+.foot a:hover{
+    color: white;
+}
+
+.foot .govIcon{
+    float:right;
+    padding-top:10px;
+}
+
+.foot .govIcon img{
+    width:40px;
+    height: 52px;  
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-cmn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>09-01</title>
+    <style>
+        div,ul
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .one
+        {
+            width: 980px;
+            height: 443px;
+            background-color:#f6f6f6;
+        }
+        .one-a
+        {
+            height: 54px;
+            width: 100%;
+            background-color:antiquewhite;
+            text-align: left;
+        }
+        .one-b
+        {
+            float: left;
+            height: 389px;
+            width: 200px;
+            /* background-color:beige; */
+            border-right: 1px dotted #a3a3a3;
+            
+        }
+        .one-c
+        {
+            float: left;
+            height: 389px;
+            /* width: 779px; */
+            padding: 12px 17px 13px 15px;
+            /* background-color:rebeccapurple; */
+        }     
+        .one
+        {
+            border: 1px solid #a3a3a3;
+            content: "";
+            display: table;
+            clear: both;    
+        }
+        div ul li
+        {
+            list-style: none;
+        }
+        .one .one-c :first-child
+        {
+            width: 37px;
+            height: 16px;
+            background-color:blue;
+            border-radius: 2px;
+            color: #000;
+            font-size: 12px;
+            text-align: center;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="one" >
+      <ul class="one-a" ></ul>
+        <ul class="one-b" ></ul>
+        <ul class="one-c" ></ul>
+    </div>
+    <div class="one" >
+            <ul class="one-a" ></ul>
+              <ul class="one-b" >
+                  <li>123</li>
+                  <li>123</li>
+                  <li>123</li>
+              </ul>
+              <ul class="one-c" >
+                  <li>精选</li>
+                  <li>不懂</li>
+                  <li>不懂</li>
+              </ul>
+          </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 12px/1.5 "微软雅黑";
+    color: #a3a3a3;
+    background-color:snow;
+}
+ul{
+    list-style: none;
+}
+a{
+   color: blue;
+   text-decoration:none;
+}
+
+.one{
+    width: 980px;
+    /* height: 430px; */
+    margin: 20px auto;
+    overflow: hidden;
+    /* background-color:silver; */
+    /* 外边距，色块居中，上面与色块距离20像素 */
+    
+}
+
+.one .one-content{
+    height: 375px;
+    /* 边框 */
+    /* border: 1px solid #E0E0E0; */
+    border: 1px solid #A3A3A3;
+    border-top-width: 0px;
+    position: relative;
+    overflow: hidden;
+}
+.one .top{
+    height: 54px;
+    background-color: aqua;
+
+}
+.one .left{
+    float: left;
+    width: 184px;
+    height: 375px;
+    /* background-color: salmon; */
+    border-right: 1px dotted #A3A3A3;
+}
+
+/* 右边开始 */
+.one .right{
+    /* float: left; */
+    /* width:793px ; */
+    height: 375px;
+    padding: 12px 17px 13px 15px ;
+    margin-left: 200px;
+    /* background-color: aquamarine; */
+
+}
+.one .right .select li.active{
+    width: 37px;
+    height: 18px;
+    background-color: blue;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 16px;
+    font-weight: bold;
+}
+.one .select li.active a{
+    font-size: 10px;
+    color: aliceblue;
+
+}
+.one .right .more{
+    position: absolute;
+    top: 11px;
+    right: 17px;
+    padding: 2px 10px;
+}
+.one .right .more:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.one .product{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.one .product li{
+    float: left;
+    width: 176px;
+    height: 127px;
+    margin: 0px 8px 8px 0px;
+    background-color: #A3A3A3;
+}
+/* 右边结束 */

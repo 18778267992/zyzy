@@ -1,0 +1,31 @@
+*{ margin:1px;
+     padding:1px;
+     border:0; 
+     background :0;
+    color: rgb(0, 26, 255);}
+.boby{
+    font-family: "正楷";
+    font-size: 20px;
+    /* background-color: aqua; */
+    width: 1000px;
+    height: 5000px;
+}
+.con_type{
+   float: left;
+   width: 380px;
+   height: 380px;
+   padding: 30px 40px;
+   border: 3px solid red;
+ 
+}
+.one{
+    color: crimson;
+}
+b{
+    color: crimson;  
+}
+.footer{
+    color: black;
+    text-align: center;
+    /* background-color: rgb(191, 212, 212); */
+}

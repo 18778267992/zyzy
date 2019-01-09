@@ -1,0 +1,14 @@
+h1{font-size:20px;
+     text-align:center; 
+     font-family:"宋体";
+    }
+    #one{
+        color: blueviolet;
+    }
+    .two{
+        color: aqua;
+    }
+p{text-align:center;
+    color:rgb(1, 58, 247); 
+    font-style:italic;
+    }

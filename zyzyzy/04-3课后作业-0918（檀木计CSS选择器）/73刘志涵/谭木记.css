@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}
+body{font-family:"隶书"; font-size:16px; color:#303131;}
+.header{
+	width:980px;
+	height:114px;
+	background-color:#525252;
+	margin:0 auto;
+	text-align: center;
+}
+.banner{
+	width:980px;
+	margin:0 auto;
+}
+.banner h3
+{
+	font-size: 18px;
+	line-height: 40px;
+}
+.content p i
+{
+	font-size: 50px;
+	color:#7c251c;
+}
+.content p strong,.content p u{color:#7c251c;}
+.content p u{font-size: 24px;}
+.content p b{background-color: #f5ee30;}
+

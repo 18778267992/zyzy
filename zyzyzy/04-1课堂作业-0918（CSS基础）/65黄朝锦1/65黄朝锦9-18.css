@@ -1,0 +1,15 @@
+h1{
+    font-stretch: 24px;
+    text-align: center;
+    font-family: "宋体"
+}
+#one{
+    color: blue;
+}
+.two{
+    color: brown;
+}
+p{
+    text-align: center;
+    color: cyan;
+}
